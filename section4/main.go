@@ -133,4 +133,15 @@ func main() {
 	s7 := strconv.Itoa(i7)
 	fmt.Println(s7)
 	fmt.Printf("s7 = %T\n", s7)
+
+
+	// 復讐
+	var int1 int = 100
+	fmt.Println(int1)
+	fmt.Printf("int1: %T\n", int1)
+
+	int2 := 200
+	fmt.Println(int2)
+	fmt.Printf("int2: %T\n", int2)
+
 }
