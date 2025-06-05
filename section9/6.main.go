@@ -45,4 +45,19 @@ func main() {
 	// 要素の削除
 	delete(m4, 1)
 	fmt.Println(m4)
+
+	var m5 = map[int]bool{1: true, 2: false, 3: false}
+	fmt.Println(m5[1])
+
+	m5[4] = true
+	fmt.Println(m5[4])
+
+	m6 := make(map[string]int)
+	m6["Apple"] = 200
+	m6["Banana"] = 300
+	m6["Orange"] = 400
+	fmt.Println(m6)
+
+	delete(m6, "Banana")
+	fmt.Println(m6)
 }

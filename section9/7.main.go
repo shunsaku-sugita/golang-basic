@@ -14,4 +14,14 @@ func main() {
 	for k, v := range m {
 		fmt.Println(k, v)
 	}
+
+	// キーだけ取り出す
+	for k := range m {
+		fmt.Println(k)
+	}
+
+	// バリューだけ取り出す
+	for _, v := range m {
+		fmt.Println(v)
+	}
 }
