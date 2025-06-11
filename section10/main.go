@@ -47,4 +47,16 @@ func main() {
 	var sl []int = []int{1, 2, 3}
 	DoubleV3(sl)
 	fmt.Println(sl) // 参照型の場合は値が変わる
+
+	var num int = 100
+
+	var num2 = num
+	num2 *= 2
+
+	num = 200
+
+	var num3 *int = &num
+
+	fmt.Println(*num3)
+
 }
